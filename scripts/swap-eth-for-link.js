@@ -16,7 +16,7 @@ const DEADLINE = now + 60 // add 60 seconds
 const SETTINGS = {
     gasLimit: 6000000, // Override gas settings: https://github.com/ethers-io/ethers.js/issues/469
     gasPrice: web3.utils.toWei('50', 'Gwei'),
-    from: '0xb86a0BEA611BdE1AFB657d79c5d23Ae0aF911AA1', // Use your account here
+    from: '', // Use your account here
     value: web3.utils.toWei('0.01', 'Ether') // Amount of Ether to Swap
 }
 
